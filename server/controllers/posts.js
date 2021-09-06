@@ -15,8 +15,7 @@ export const getPosts= async(req, res)=> {
     }
 
     
-    // res.send('THIS WORKS!');
-}
+};
 
 export const createPost= async(req, res)=> {
     // res.send('Post Creation');
@@ -34,7 +33,7 @@ export const createPost= async(req, res)=> {
     }
 
 
-}
+};
 
 export const updatePost = async(req,res) =>{
     const{id:_id}=req.params;
@@ -47,7 +46,7 @@ export const updatePost = async(req,res) =>{
 
 
 
-}
+};
 
 export const deletePost = async (req, res) => {
     const{id} = req.params;
