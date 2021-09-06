@@ -22,4 +22,5 @@ mongoose.connect(process.env.CONNECTION_URL, {useNewUrlParser:true, useUnifiedTo
     mongoose.set('useFindAndModify', false);
     
 /*script: npm i dotenv 
-In .env add PORT = PORT and CONNECTION_URL= mongodb server url */
+In .env add PORT = PORT and CONNECTION_URL= mongodb server url
+script: npm start */
