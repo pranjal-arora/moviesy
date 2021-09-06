@@ -13,7 +13,7 @@ app.use(cors());
 
 app.use('/posts', postRoutes);
 
-const PORT = process.env.PORT || num;
+const PORT = process.env.PORT || portnum;
 
 mongoose.connect(process.env.CONNECTION_URL, {useNewUrlParser:true, useUnifiedTopology: true})
     .then(()=> app.listen(PORT, ()=> console.log(`Server running on port: ${PORT}`)) )
@@ -21,4 +21,5 @@ mongoose.connect(process.env.CONNECTION_URL, {useNewUrlParser:true, useUnifiedTo
 
     mongoose.set('useFindAndModify', false);
     
-/* In .env add PORT = PORT and CONNECTION_URL= mongodb server url */
+/*script: npm i dotenv 
+In .env add PORT = PORT and CONNECTION_URL= mongodb server url */
