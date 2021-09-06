@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 //logic of routes
+=======
+//handler for our routes(logic)
+>>>>>>> 7005b3a4e25b1024eeab6a00283eeaa223985415
 import express from 'express';
 import mongoose from 'mongoose';
 import PostMessage from '../models/postMessage.js'
@@ -15,7 +19,12 @@ export const getPosts= async(req, res)=> {
     }
 
     
+<<<<<<< HEAD
 };
+=======
+    // res.send('THIS WORKS!');
+}
+>>>>>>> 7005b3a4e25b1024eeab6a00283eeaa223985415
 
 export const createPost= async(req, res)=> {
     // res.send('Post Creation');
@@ -33,7 +42,11 @@ export const createPost= async(req, res)=> {
     }
 
 
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> 7005b3a4e25b1024eeab6a00283eeaa223985415
 
 export const updatePost = async(req,res) =>{
     const{id:_id}=req.params;
@@ -46,7 +59,11 @@ export const updatePost = async(req,res) =>{
 
 
 
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> 7005b3a4e25b1024eeab6a00283eeaa223985415
 
 export const deletePost = async (req, res) => {
     const{id} = req.params;
