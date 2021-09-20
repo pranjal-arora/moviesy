@@ -6,4 +6,5 @@ Contains all CRUD Operations, and also with the ability to like a post.
 Currently working on: Authentication of users and Pagination.
 
 Deployed on: https://moviesy-movie-reviewer.netlify.app
+Currently undeployed.
 
