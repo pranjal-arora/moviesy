@@ -1,3 +1,1 @@
-###necessary contribution guidelines
-###done
-###first
+###necessary contribution guidelines  ###done  ###first
