@@ -6,5 +6,6 @@ Contains all CRUD Operations, and also with the ability to like a post.
 Currently working on: Authentication of users using JWT and Pagination among different posts information.
 
 Deployed on: https://moviesy-movie-reviewer.netlify.app
-Currently undeployed.
+
+Site currently down.
 
